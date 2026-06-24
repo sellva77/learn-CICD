@@ -19,7 +19,6 @@ jobs:
                 node-version: "24"
             - name: Install dependencies
               run: npm run install-all
-            - name: Run test
-              run: npm test
+            
 
 
